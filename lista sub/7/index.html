@@ -1,0 +1,29 @@
+
+<html>
+<head>
+    <title>Calculadora de Pedidos</title>  
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Pedidos da Lanchonete</h1>
+        <label for="codigoItem">Código do Item:</label>
+        <select id="codigoItem" name="codigoItem">
+            <option value="cachorro">Cachorro Quente</option>
+            <option value="bauru">Bauru</option>
+            <option value="misto">Misto Quente</option>
+            <option value="hamburguer">Hambúrguer</option>
+            <option value="cheeseburguer">Cheeseburguer</option>
+            <option value="refrigerante">Refrigerante</option>
+        </select>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+
+        <button id="calcularBt">Calcular Valor</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

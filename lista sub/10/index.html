@@ -1,0 +1,24 @@
+<html>
+<head>
+    
+    <title>Calculadora de Salário de Professor</title>
+</head>
+<body>
+    <h1>Calculadora de Salário de Professor</h1>
+    <form id="form">
+        <label for="nivel">Nível do Professor:</label>
+        <select id="nivel" required>
+            <option value="1">Nível 1</option>
+            <option value="2">Nível 2</option>
+            <option value="3">Nível 3</option>
+        </select>
+        <br><br>
+        <label for="horas">Quantidade de horas/aula por semana:</label>
+        <input type="number" id="horas" required>
+        <br><br>
+        <button type="button" id="btCalcular">Calcular Salário</button>
+    </form>
+    <h3 id="h3Resultado"></h3>
+    <script src="script.js"></script>
+</body>
+</html>
